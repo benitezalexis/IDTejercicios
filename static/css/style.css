@@ -20,6 +20,7 @@ body {
     color: black;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #cabecera,.detalle {
@@ -32,3 +33,6 @@ a {
 }
 
 
+::-webkit-scrollbar {
+    display: none;
+}

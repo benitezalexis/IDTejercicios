@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Ejemplo del uso de formulario</title>
+    <link rel="stylesheet" href="../static/css/menu.css">
+    <script src="../static/js/jquery-3.6.4.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="cabecera">
+            <h2 id="titleClass">Clase 3</h2>
+         
+            <div id="menu">
+                <ul>
+                    <li><a href="./ejercicio1.html">Ejercicio 1</a></li>
+                    <li> <a href="./ejercicio2.html">Ejercicio 2</a></li>
+                    <li><a href="./ejercicio3.html">Ejercicio 3</a></li>
+                    <li class="boton-atras"><button id="btnAtras" >Atras</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="detalle">
+            <form action="">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+                <br><br>
+                <label for="nombre">Apellido: </label>
+                <input type="text" name="nombre" id="nombre">
+                <br><br>
+                <label for="nombre">Ciudad: </label>
+                <input type="text" name="ciudad" id="ciudad" size="15" maxlength="50">
+                <br><br>
+                <label for="nombre">Email: </label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <input type="radio" name="sexo" id="hombre" value="Varón" checked>
+                <label for="nombre">Varon: </label>
+                <br><br>
+                <input type="radio" name="sexo" id="mujer" value="Mujer">
+                <label for="nombre">Mujer: </label>
+                <br><br>
+                <input type="submit" value="Aceptar">
+                <input type="reset"  value="Restablecer">
+                <br><br>
+            </form>
+        </div>
+
+</div>
+</body>
+</html>

@@ -36,8 +36,11 @@
 }
 
 #btnAtras{
+    color: white;
     display: block;
     padding: 15px;
+    text-decoration: none;
+    background-color: #2a75d9 ;
+    border: 1px solid #2a75d9 ;
     cursor: pointer;
-    background-color:  #2a75d9 ;color: white;border: 1px solid #2a75d9 ;
 }

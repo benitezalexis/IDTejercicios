@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./static/css/style.css">
     <title>Ejemplo del uso de formulario</title>
     <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-    <script src="./static/js/bootstrap.bundle.min.js"></script>
+    
     <link rel="stylesheet" href="./static/css/style.css">
     <link rel="stylesheet" href="./static/css/menu.css">
 <style>
@@ -16,14 +16,31 @@
     display: block;
     float: left;
         margin: 10px;
-        width: 250px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
 }
 
 
 .clearboth{
     float: none;
     clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 450px) {
+  .detalle {
+    margin-left: -15px;
+    margin-right: 0;
+  }
+  #titleClass{
+    margin-left: -17px;
+  }
 }
 </style>
 </head>
@@ -36,36 +53,46 @@
 
 
         </div>
-        <div class="detalle clas">
+        <div class="detalle" style="text-align: center;overflow: scroll;">
             
-            <div class="card box" style="width: 18rem;">
+            <div class="card box" >
+                <a href="./clase1/ejercicio1.html">
                 <img class="card-img-top" src="./static/img/clase1.PNG" alt="Card image cap">
                 <div class="card-body">
                   <h3 class="card-title">Clase 1</h3>
-                 
+                 <div  class="card-text">Introduccion a HTML 5</div>
                 </div>
+            </a>
               </div>
 
-              <div class="card box" style="width: 18rem;">
+              <div class="card box" >
+                <a href="./clase2/ejercicio1.html">
                 <img class="card-img-top" src="./static/img/clase2.PNG" alt="Card image cap">
                 <div class="card-body">
                   <h3 class="card-title">Clase 2</h3>
+                  <div class="card-text">Elementos HTML</div>
                  
                 </div>
+                </a>
               </div>
-              <div class="card box" style="width: 18rem;">
-                <img class="card-img-top" src="./static/img/clase2.PNG" alt="Card image cap">
+              <div class="card box" >
+                <a href="./clase3/ejercicio1.html">
+                <img class="card-img-top" src="./static/img/clase3.PNG" alt="Card image cap">
                 <div class="card-body">
-                  <h3 class="card-title">Clase 2</h3>
-                 
+                  <h3 class="card-title">Clase 3</h3>
+                  <div class="card-text">Formularios HTML</div>
+
                 </div>
+            </a>
               </div>
-              <div class="card box" style="width: 18rem;">
-                <img class="card-img-top" src="./static/img/clase2.PNG" alt="Card image cap">
+              <div class="card box" >
+                <a href="./clase4/ejercicio1.html">
+                <img class="card-img-top" src="./static/img/clase4.PNG" alt="Card image cap">
                 <div class="card-body">
-                  <h3 class="card-title">Clase 2</h3>
-                 
+                  <h3 class="card-title">Clase 4</h3>
+                  <div class="card-text">Metodos de envio de formularios</div>
                 </div>
+            </a>
               </div>
         </div>
            <div class="clearboth"></div>
@@ -73,6 +100,8 @@
 
 
     </div>
+
+    <script src="./static/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

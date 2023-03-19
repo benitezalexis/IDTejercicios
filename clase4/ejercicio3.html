@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="../static/css/menu.css">    
+    <script src="../static/js/jquery-3.6.4.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="cabecera">
+            <h2 id="titleClass">Clase 4</h2>
+         
+            <div id="menu">
+                <ul>
+                    <li><a href="./ejercicio1.html">Ejercicio 1</a></li>
+                    <li> <a href="./ejercicio2.html">Ejercicio 2</a></li>
+                    <li><a href="./ejercicio3.html">Ejercicio 3</a></li>
+                    <li class="boton-atras"><button id="btnAtras" >Atras</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="detalle">
+          <h2>Crear el siguente formulario</h2>
+          <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <br><br>
+                <label for="nombre">Apellido: </label>
+                <input type="text" name="nombre" id="nombre">
+                <br><br>
+                <label for="nombre">Email: </label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                
+                <label for="nombre">Direccion: </label>
+                <input type="text" name="direccion" id="direccion">
+                <br><br>
+                 
+                <label for="nombre">Password: </label>
+                <input type="password" name="password" id="password">
+                <br><br>
+                <h3>Productos</h3>
+                <input type="checkbox" name="discoM">
+                Disco duro 500 Gb.
+                <br><br>
+                <input type="checkbox" name="discoG">
+                Disco duro 2 Tb.
+                <br><br>
+                <input type="checkbox" name="procesador">
+                Procesador i5.
+                <br><br>
+                <h3>Sexo</h3>
+                <input type="radio" name="sexo" id="femenino" value="Femenino" >
+                <label for="nombre">Femenino: </label>
+                <br><br>
+                <input type="radio" name="sexo" id="masculino" value="Masculino">
+                <label for="nombre">Masculino: </label>
+                <br><br>
+                <h3>Compañia</h3>
+                <select name="select">
+                    <option value="value1">0983</option>
+                    <option value="value2" selected>0984</option>
+                    <option value="value3">0985</option>
+                  </select>
+                  <br><br>
+                  <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="..:Escriba Aqui:.."></textarea>
+               <br><br>
+               <input type="checkbox" name="acuerdo" checked> 
+              Acepto las condiciones establecidas
+               <br><br>
+               <input type="submit" value="Enviar datos">
+        </div>
+
+
+
+</body>
+
+</html>
