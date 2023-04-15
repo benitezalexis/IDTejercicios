@@ -1,0 +1,12 @@
+#capa1,#capa2{
+    border-radius: 15px;
+}
+
+#capa3{
+    -webkit-border-radius:15px;
+    padding: 10px;
+}
+
+#capa4{
+    -webkit-border-radius:15px 27px 100px 0px;
+}
