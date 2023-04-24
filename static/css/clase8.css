@@ -1,0 +1,24 @@
+#pie{
+    background-color: #becdfe;
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+}
+
+#head{
+    background-color: #becdfe;
+    padding: 10px;
+    margin: 10px;
+}
+.columna1, .columna2, .columna3{
+    background-color: #becdfe;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
