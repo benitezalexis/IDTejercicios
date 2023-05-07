@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to bottom, #4d98db, #000000);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 252px;
+}
+
+.montanhas {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+    background-image: url('../img/montañas.png');
+    height: 128px;
+    background-repeat: repeat-x;
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.caja {
+    width: 1000px;
+    /* height: 200px; */
+    margin: 0 auto;
+    background-color: #eaeaea;
+    margin-bottom: 20px;
+}
+
+.caja-izquierda {
+    width: 618px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background: red;
+    margin-bottom: 10px;
+}
+
+.caja-derecha {
+    width: 317px;
+    /* background: green; */
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    color: #787878;
+}
+
+.caja-derecha ul {
+    list-style: circle;
+}
+
+.caja-derecha li {
+    line-height:30px;
+    margin: 0px 30px;
+    padding: 0px 0px 0px 15px;
+    border-left: none;
+}
+
+.caja-derecha h2 {
+	height: 32px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #D6D6D6;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #696969;
+	background: url(../img/img08.jpg) no-repeat left 4px;
+}
+
+.caja-derecha li a {
+	color: #4D4D4D;
+}
+
+.post {
+	border-bottom: 1px dotted #E7E2DC;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	background: linear-gradient( to bottom, #ececec, #ffffff);
+    color: #3e3530;
+}
+
+.post h3 {
+	letter-spacing: -.5px;
+	padding: 20px 10px 0px 30px;
+	font-size: 30px;
+    color: #3e3530;
+}
+
+.post p,
+.post div
+{
+	padding: 0px 30px 20px 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.fecha {
+	font-weight: 800;
+	font-style: italic;
+}
+
+.posted{
+    float:right;
+}
+.post a {
+	color: #2e2e2e;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.limpiar{
+    clear: both;
+}

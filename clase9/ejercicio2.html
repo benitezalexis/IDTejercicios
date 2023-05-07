@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/ejercicio2.css">
+
+    <style>
+        .fixed{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border: 1px solid rgb(88, 33, 33);
+            background-color:  rgb(88, 33, 33);
+            padding: 5px;
+            color: white;
+            right: 10px;
+            top:60%;
+            border-radius: 99%;
+            line-height: 50px;
+            cursor: pointer;  
+            font-size: 13px;   
+        }
+
+        #btnAtras{
+            top:30%
+        }
+    </style>
+    
+<script src="../static/js/jquery-3.6.4.min.js"></script>
+<script src="../static/js/script.js"></script>
+</head>
+
+<body>
+    <!-- 
+        ésta caja a su vez contendrá otras dos con la clase “post”.
+    -->
+
+    <div class="encabezado">
+        <h1 class="montanhas">montañas</h1>
+    </div>
+
+    <div class="caja">
+        <div class="caja-izquierda">
+            <div class="post">
+                <h3>Bienvenidos a la página</h3>
+                <p>
+                    <span class="fecha">Febrero 19,2010</span>
+                    <span class="fecha posted">Posted by Someone</span>
+                </p>
+                <p>Sed lacus. Donec lectus. Nullam pretium nigh ut turpis. Nam</p>
+                <p>
+                    <a href="//google.com">Read More</a> | <a href="//google.com">Comments</a>
+                </p>
+            </div>
+            <div class="post">
+                <h3>Lorem ipsum sed aliquam</h3>
+                <div>
+                    <span class="fecha">January,20, 2023</span>
+                    <span class="fecha posted">Posted by Someone</span>
+                </div>
+                <p>Aqui pondras un texto que ocupe 6 lineas de la pagina</p>
+                <div>
+                    <a href="//google.com">Read More</a> | <a href="//google.com">Comments</a>
+                </div>
+            </div>
+        </div>
+        <div class="caja-derecha">
+            <h2>Categories</h2>
+            <ul>
+                <li>Aliquuam libero</li>
+                <li>Consectetuer adiposcing elit</li>
+                <li>Metus aliquam pelientesque</li>
+                <li>Suspendisse iaculis mauris</li>
+            </ul>
+            <br>
+            <h2>Blogroll</h2>
+            <ul>
+                <li>Aliquuam libero</li>
+                <li>Consectetuer adiposcing elit</li>
+                <li>Metus aliquam pelientesque</li>
+                <li>Suspendisse iaculis mauris</li>
+                
+            </ul>
+
+        </div>
+        <div class="limpiar"></div>
+    </div>
+
+    <div id="btnAtras" class="fixed">
+        &nbsp; Atras
+   </div>
+    <div id="ejerNueve1"  class="fixed">
+        Ejercicio1
+    </div>
+
+</body>
+
+</html>
