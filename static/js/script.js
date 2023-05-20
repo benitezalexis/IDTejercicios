@@ -13,4 +13,15 @@ $(document).ready(function(){
         $(location).attr('href','../index.html');
     });
 
+
+    $('#Ejercicio2').click(function(){
+        $(location).attr('href','./ejercicio2.html');
+    });
+
+
+    $('#Ejercicio1').click(function(){
+        $(location).attr('href','./ejercicio1.html');
+    });
+
+
 });

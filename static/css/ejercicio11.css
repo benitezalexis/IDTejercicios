@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana,sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    width: 50%;
+}
+div{
+    border: 1px solid ;
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+h2{
+    margin: 55px 0 -30px 65px;
+    font-size: 22px;
+    white-space: pre;
+    text-align: center;
+    width: 400px;
+}
+#caja{
+    width: 600px;
+    border-style: none;
+    border-width: 0;
+    background-color: white;
+}
+
+#to_bottom{
+    background: linear-gradient(to bottom,#008080,#ffebcd);
+}
+
+#deg45{
+    background: linear-gradient(45deg,#008080,#ffebcd);
+}
+
+#deg75{
+    background: linear-gradient(75deg,#008080,#ffebcd);
+}
+
+#deg180{
+    background: linear-gradient(180deg,#008080,#ffebcd);
+}
+
+#deg90{
+    background: linear-gradient(90deg,#008080,#ffebcd);
+}
+
+#deg0{
+    background: linear-gradient(0deg,#008080,#ffebcd);
+}
+
+#multicolor{
+    background: linear-gradient(90deg,red,blue,yellow);
+
+}
+
+#multicolor2{
+    background: linear-gradient(90deg,red,blue 10px,yellow);
+}
+
+#multicolor3{
+    background: linear-gradient(90deg,blue ,red 30px,yellow 120px,green);
+}
+
+#btnAtras {
+    position:fixed !important; 
+    right: 50px !important;
+    top: 100px !important;
+    width: 100px !important;
+    height: 100px !important;
+    border: 1px solid rgb(112, 107, 107) !important;
+    background-color: rgb(112, 107, 107) !important;
+    border-radius: 99%!important;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#Ejercicio2 {
+    position:fixed !important; 
+    right: 50px !important;
+    top: 300px !important;
+    width: 100px !important;
+    height: 100px !important;
+    border: 1px solid rgb(112, 107, 107) !important;
+    background-color: rgb(112, 107, 107) !important;
+    border-radius: 99%!important;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
