@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: #EAF0F9;
+}
+
+#cabecera {
+    width: 100%;
+    background-color: #AAD224;
+    height: 157px;
+    padding-top: 32px;
+}
+
+#pagina {
+    width: 100%;
+    height: 75px;
+    background-color: #AAD224;
+    line-height: 34px;
+    color: white;
+    font-size: 25px;
+    padding-left: 211px;
+}
+#menu {
+    width: 1000px;
+    height: 37px;
+    background-color: #D63D8F;
+    padding: 8px;
+    line-height: 20px;
+    margin-left: 183px;
+}
+
+#menu ul {   
+     margin-left: 24px;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+#menu a:hover {
+    background-color: #FFFFFF;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+
+
+#menu a {
+    text-decoration: none;
+    padding: 12px;
+    padding-top: 25px;
+    padding-bottom: 17px;
+    color: white;
+
+}
+
+
+.current_page_item a {
+    background-color: #9D66DE;
+    text-shadow: #43206B -1px 1px 2px;
+    cursor: pointer;
+}
+#cajaCentral{
+    margin-top: 13px;
+    width: 1000px;
+    height: 450px;
+    background-color: #EAF0F9;
+    margin-left: 202px;
+    padding-top: 27px;
+}
+
+#cajaIzq{
+    width: 648px;
+    float: left;
+    padding-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:  #585D60;
+}
+
+#cajaIzq h2{
+    height: 26px;
+    margin: 0 0 10px 0px;
+    padding: 12px 0 2px 7px;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: normal;
+    color: #89C2BE;
+    padding-top: 6px;
+}
+
+#cajaIzq p{
+   padding-top:4px;
+    line-height: 200%;
+}
+
+#cajaDer ul{
+    margin: 0;
+    padding: 0px 10px;
+    list-style: none;
+    line-height: normal;
+}
+
+#cajaDer li{
+    margin: 0;
+    padding: 7px 10px 10px 7px;
+    background: url(../img/img07.jpg) no-repeat left ;
+
+}
+
+#cajaIzq li a{
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    color: #585D60;
+}
+
+#cajaDer{
+    width: 248px;
+    float: right;
+
+}
+
+#cajaDer h2{
+    color: #95CC36;
+}
+
+img{
+    float: left;
+    margin: 0 0 10px 0px;
+    padding: 12px 0 2px 7px;
+    padding-right: 40px;
+}
+
+
+
+.clearfix{
+clear: both;
+float: none;
+}
+
+#cajaDer .post{
+    border-bottom: 1px dotted #83878c;
+    margin-bottom: 25px;
+}
+
+#cajaDer .post h2{
+    height: 30px;
+    color:#549900 ;
+    padding-top: 2px;
+}
+ 
+#cajaDer .post h2 a{
+    text-decoration: none;
+    color: #585D60;
+
+}
+
+.post p{
+    padding: 10px 0;
+}
+
+#postTitle{
+    padding-top: 10px !important;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+#boxWhite {
+    background: white;
+    width: 1016px;
+    height: 29px;
+    margin-left: 184px;
+}
