@@ -1,0 +1,40 @@
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+
+button,#btnAtras{
+    position: fixed;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    bottom: 140px;
+    right: 10px;
+    border-radius: 99%;
+    background-color: aqua;
+    border: 1px solid aqua;
+    padding: 10px;
+}
+
+#btnAtras{
+    background-color: rgb(243, 84, 73);
+    border: 1px solid  rgb(243, 84, 73);
+    bottom: 20px;
+    color: white;
+    font-weight: bolder;
+}

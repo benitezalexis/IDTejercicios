@@ -22,6 +22,13 @@ $(document).ready(function(){
     $('#Ejercicio1').click(function(){
         $(location).attr('href','./ejercicio1.html');
     });
+    $('#btnCambiarEj1').click(function(){
+        
+        $(location).attr('href','./ejercicio1.html');
+    });
 
+    $('#btnCambiarEj2').click(function(){
+      $(location).attr('href','./ejercicio2.html');
+    });
 
 });
