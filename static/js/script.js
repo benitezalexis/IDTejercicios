@@ -30,5 +30,8 @@ $(document).ready(function(){
     $('#btnCambiarEj2').click(function(){
       $(location).attr('href','./ejercicio2.html');
     });
+    $('#btnCambiarEj3').click(function(){
+      $(location).attr('href','./ejercicio3.html');
+    });
 
 });
